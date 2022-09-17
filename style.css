@@ -189,8 +189,8 @@ body {
 }
 .column h1 {
   color: hsl(0, 0%, 8%);
-  font-size: 65px;
-  margin-bottom: 40px;
+  font-size: 50px;
+  margin-bottom: 30px;
 }
 .column p {
   color: hsl(0, 0%, 41%);
@@ -211,7 +211,7 @@ body {
   border: 1px solid #000;
 }
 .client {
-  margin: 70px 0 0;
+  margin: 60px 0 0;
   display: flex;
   justify-content: space-between;
 }
@@ -223,6 +223,9 @@ body {
 }
 
 @media(max-width:500px) {
+  br {
+    display: none;
+  }
   .lg {
     display: block;
   }
@@ -254,8 +257,9 @@ body {
   .column p {
     text-align: center;
   }
-  .column a {
-    margin: 0 100px;
+  .column .a {
+    max-width: 100%;
+    margin: 0 auto;
     text-align: center;
   }
   
